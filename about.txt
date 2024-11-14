@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Yashmika">
+    <title>About Me - Yashmika</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>About Me</h1>
+    </header>
+
+    <!-- About Section -->
+    <section class="about">
+        <h2>Who Am I?</h2>
+        <p>I am a passionate web developer with experience in frontend and backend technologies. I enjoy solving problems and creating impactful web solutions.</p>
+        <img src="images/profile.jpg" alt="Yashmika's Profile Picture">
+        <p>More details about my journey and skills can be added here.</p>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Yashmika. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

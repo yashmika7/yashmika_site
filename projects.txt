@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Yashmika">
+    <title>Projects - Yashmika</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>My Projects</h1>
+    </header>
+
+    <!-- Projects Section -->
+    <section class="projects">
+        <h2>Featured Projects</h2>
+        <ul>
+            <li>
+                <h3>Project 1</h3>
+                <p>Description of the project goes here.</p>
+            </li>
+            <li>
+                <h3>Project 2</h3>
+                <p>Description of the project goes here.</p>
+            </li>
+            <!-- Add more projects as needed -->
+        </ul>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Yashmika. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
+
+
+<style>/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+/* Home Section */
+.intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    background-color: #fff;
+}
+
+.profile-container {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.intro-text h2 {
+    margin-bottom: 10px;
+}
+
+.intro-text p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #555;
+}
+
+/* Credentials Section */
+.credentials {
+    padding: 40px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.credentials h2 {
+    margin-bottom: 20px;
+}
+
+.credentials ul {
+    list-style: none;
+    padding: 0;
+}
+
+.credentials li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+/* Services Section */
+.services {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+}
+
+.services h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.service {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.service h3 {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+
+.service p {
+    font-size: 1.1em;
+}
+
+/* Latest Work Section */
+.latest-work {
+    padding: 40px 20px;
+    background-color: #fff;
+}
+
+.latest-work h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.work-item {
+    margin-bottom: 20px;
+}
+
+/* Let's Talk Section */
+.contact {
+    padding: 40px 20px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+.contact h2 {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+</style>
